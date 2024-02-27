@@ -1,7 +1,7 @@
-import { Express } from "express";
+import  Express  from "express";
 const usuario = Express();
 
-import { postUsuario,getUsuario,putUsuario,deleteUsuario } from "../controllers/controllersUser";}
+import { postUsuario,getUsuario,putUsuario,deleteUsuario } from "../controllers/controllersUser.js";
 
 usuario.use(Express.json());
 

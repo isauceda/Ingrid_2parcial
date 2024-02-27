@@ -1,4 +1,4 @@
-import {db} from "../db/conn.js";
+import {}
 
 const postUsuario = async(req, res)=>{
 
